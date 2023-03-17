@@ -20,7 +20,8 @@ sg.theme('DarkTeal9')
 layout = [
     [sg.Text('Please fill out the following fields.')],
     [sg.Text('ID', size = (4,1)), sg.InputText(key='ID')],
-    [sg.Text('Product', size=(15,1)), sg.Combo(['Puzzles', 'Banks', 'Chalkboards'], key='Product')],
+    [sg.Text('Product', size=(15,1)), sg.Combo(['Puzzles', 'Banks', 'Chalkboards', 'Tic Tac Toe','Post it Holder'], key='Product')],
+    [sg.Text('Operation', size= (15,1)), sg.Combo(['Router', 'Laser', 'Print'], key = "Operation")],
     [sg.Submit(), sg.Button('Clear'), sg.Exit()]
     ]
 
